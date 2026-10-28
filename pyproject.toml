@@ -1,0 +1,8 @@
+[project]
+name = "universal-api-hub"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = ["fastapi[standard]>=0.115,<1"]
+
+[tool.fastapi]
+entrypoint = "main:app"
